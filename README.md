@@ -13,7 +13,7 @@ ISCO-08 7534 covers upholsterers and related workers who use hand tools (staple 
 (`upholcoord.governor`), following the itonami actor pattern
 (ADR-2607121000): `:intake -> :advise -> :govern -> :decide -+-> :commit
 (:ok?) +-> :request-approval (:escalate?, human-in-the-loop interrupt)
-+-> :hold (:hard?)`. 24 tests / 52 assertions green (`clojure -M:test`).
++-> :hold (:hard?)`. 24 tests / 52 assertions green (`kbb -M:test`).
 HARD invariants (always hold, never
 overridable): upholsterer provenance, workshop provenance, no-actuation
 (`:effect` must be `:propose`), a closed op-allowlist
