@@ -1,5 +1,5 @@
 (ns upholcoord.actor-test
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [upholcoord.actor :as actor]
             [upholcoord.store :as store]))
 

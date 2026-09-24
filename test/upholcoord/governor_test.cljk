@@ -1,5 +1,5 @@
 (ns upholcoord.governor-test
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [upholcoord.store :as store]
             [upholcoord.advisor :as advisor]
             [upholcoord.governor :as governor]))
