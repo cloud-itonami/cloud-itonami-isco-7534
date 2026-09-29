@@ -1,7 +1,7 @@
 (ns upholcoord.store
   "SSoT for the ISCO-08 7534 upholstery workshop scheduling/logistics
   coordination actor (itonami actor pattern, ADR-2607121000 /
-  CLAUDE.md Actors section; README's 'Robotics premise' — a workshop
+  AGENTS.md Actors section; README's 'Robotics premise' — a workshop
   scheduling/logistics coordination robot performs crew scheduling,
   job/commission/progress-record logging and padding/fabric/frame-
   materials supply-order coordination for an upholstery workshop
